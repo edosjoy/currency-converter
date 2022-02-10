@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Ковертер валют</h1>
+    <h5>fetch & merge</h5>
+
+<section class="currency-converter">
+    <div class="date-update"></div>
+    <div class="search-currency">
+        <input type="text" class="input-name-currency" placeholder="Поиск валюты по названию">
+        <div class="cross">&times</div>
+
+        <select class="list-name-currencies" size="10"></select>
+
+        <div class="status"></div>
+
+        <div class="result">
+            <input type="text" class="result-rur" value="100" oninput="noChar(this)">
+            <p class="char-code-rur">RUR</p>
+            <p>=</p>
+            <input type="text" class="result-choose-currency" placeholder="Выберите валюту" oninput="noChar(this)">
+            <p class="char-code-choose-currency"></p>
+        </div>
+    </div>
+    <button class="button-reload">Обновить</button>
+    <div class="link-all-currencies">
+        <a href="/all-currencies.html">Все курсы валют одним списком</a>
+    </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+section {
+    width: 450px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.status:not(:empty) {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+.item-currency {
+    margin-bottom: 10px;
+}
+
+.item-currency .add-favorite,
+.item-currency .remove-favorite {
+    font-weight: bold;
+    color: #b00000;
+}
+
+.item-currency .add-favorite:hover,
+.item-currency .remove-favorite:hover {
+    cursor: pointer;
+}
