@@ -1,6 +1,6 @@
 # Currency Converter
 
-Конвертер валют https://edosjoy.github.io/currency-converter/
+Deploy: https://edosjoy.github.io/currency-converter/
 
 Тестовое задание
 
